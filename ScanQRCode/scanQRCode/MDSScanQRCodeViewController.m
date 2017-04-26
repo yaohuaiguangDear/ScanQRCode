@@ -6,10 +6,10 @@
 //  Copyright © 2015年 yao. All rights reserved.
 //
 
-#import "MDSSweepYardViewController.h"
+#import "MDSScanQRCodeViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface MDSSweepYardViewController ()<AVCaptureMetadataOutputObjectsDelegate>
+@interface MDSScanQRCodeViewController ()<AVCaptureMetadataOutputObjectsDelegate>
 {
     int num;
     BOOL upOrdown;
@@ -26,7 +26,7 @@
 @property (nonatomic, strong) ScanQRCode qrcode;
 @end
 
-@implementation MDSSweepYardViewController
+@implementation MDSScanQRCodeViewController
 - (id)init
 {
     if (self == [super init]) {

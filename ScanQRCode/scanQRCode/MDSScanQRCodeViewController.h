@@ -10,7 +10,7 @@
 
 typedef void (^ScanQRCode)(NSString * code, BOOL success);
 
-@interface MDSSweepYardViewController : UIViewController
+@interface MDSScanQRCodeViewController : UIViewController
 
 - (void)scanQRCode:(ScanQRCode)code;
 
