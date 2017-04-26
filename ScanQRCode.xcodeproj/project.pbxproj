@@ -15,6 +15,8 @@
 		207462E11EB074C4003B14A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207462DF1EB074C4003B14A6 /* LaunchScreen.storyboard */; };
 		207462EC1EB074C4003B14A6 /* ScanQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207462EB1EB074C4003B14A6 /* ScanQRCodeTests.m */; };
 		207462F71EB074C4003B14A6 /* ScanQRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207462F61EB074C4003B14A6 /* ScanQRCodeUITests.m */; };
+		207463081EB086D0003B14A6 /* MDSSweepYardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207463061EB086D0003B14A6 /* MDSSweepYardViewController.m */; };
+		207463091EB086D0003B14A6 /* MDSSweepYardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 207463071EB086D0003B14A6 /* MDSSweepYardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		207462F21EB074C4003B14A6 /* ScanQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		207462F61EB074C4003B14A6 /* ScanQRCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanQRCodeUITests.m; sourceTree = "<group>"; };
 		207462F81EB074C4003B14A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207463051EB086D0003B14A6 /* MDSSweepYardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSSweepYardViewController.h; sourceTree = "<group>"; };
+		207463061EB086D0003B14A6 /* MDSSweepYardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSSweepYardViewController.m; sourceTree = "<group>"; };
+		207463071EB086D0003B14A6 /* MDSSweepYardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSSweepYardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		207462D01EB074C4003B14A6 /* ScanQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				207463041EB086B1003B14A6 /* scanQRCode */,
 				207462D41EB074C4003B14A6 /* AppDelegate.h */,
 				207462D51EB074C4003B14A6 /* AppDelegate.m */,
 				207462D71EB074C4003B14A6 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				207462F81EB074C4003B14A6 /* Info.plist */,
 			);
 			path = ScanQRCodeUITests;
+			sourceTree = "<group>";
+		};
+		207463041EB086B1003B14A6 /* scanQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				207463051EB086D0003B14A6 /* MDSSweepYardViewController.h */,
+				207463061EB086D0003B14A6 /* MDSSweepYardViewController.m */,
+				207463071EB086D0003B14A6 /* MDSSweepYardViewController.xib */,
+			);
+			path = scanQRCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +267,7 @@
 			files = (
 				207462E11EB074C4003B14A6 /* LaunchScreen.storyboard in Resources */,
 				207462DE1EB074C4003B14A6 /* Assets.xcassets in Resources */,
+				207463091EB086D0003B14A6 /* MDSSweepYardViewController.xib in Resources */,
 				207462DC1EB074C4003B14A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +295,7 @@
 			files = (
 				207462D91EB074C4003B14A6 /* ViewController.m in Sources */,
 				207462D61EB074C4003B14A6 /* AppDelegate.m in Sources */,
+				207463081EB086D0003B14A6 /* MDSSweepYardViewController.m in Sources */,
 				207462D31EB074C4003B14A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
