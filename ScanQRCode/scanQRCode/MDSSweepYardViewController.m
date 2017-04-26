@@ -9,9 +9,6 @@
 #import "MDSSweepYardViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
-#import "MDSDoctorDetailViewController.h"
-#import "MDSHybridWebViewController.h"
-
 @interface MDSSweepYardViewController ()<AVCaptureMetadataOutputObjectsDelegate>
 {
     int num;
@@ -45,14 +42,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake((ScreenWidth - 300) / 2,(ScreenHeight - 64 - 300) / 2,300,300)];
+    UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 300) / 2,([UIScreen mainScreen].bounds.size.height - 64 - 300) / 2,300,300)];
     
     imageView.image = [UIImage imageNamed:@"doc_saoma_corner"];
     [self.view addSubview:imageView];
     
     upOrdown = NO;
     num =0;
-    _line = [[UIImageView alloc] initWithFrame:CGRectMake((ScreenWidth - 300) / 2, (ScreenHeight - 64 - 300) / 2, 300, 2)];
+    _line = [[UIImageView alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 300) / 2, ([UIScreen mainScreen].bounds.size.height - 64 - 300) / 2, 300, 2)];
     _line.image = [UIImage imageNamed:@"doc_saoma_horiz"];
     [self.view addSubview:_line];
     
@@ -65,14 +62,14 @@
 {
     if (upOrdown == NO) {
         num ++;
-        _line.frame = CGRectMake((ScreenWidth - 300) / 2, (ScreenHeight - 64 - 300) / 2+2*num, 300, 2);
+        _line.frame = CGRectMake(([UIScreen mainScreen].bounds.size.width - 300) / 2, ([UIScreen mainScreen].bounds.size.height - 64 - 300) / 2+2*num, 300, 2);
         if (2*num == 300) {
             upOrdown = YES;
         }
     }
     else {
         num --;
-        _line.frame = CGRectMake((ScreenWidth - 300) / 2, (ScreenHeight - 64 - 300) / 2+2*num, 300, 2);
+        _line.frame = CGRectMake(([UIScreen mainScreen].bounds.size.width - 300) / 2, ([UIScreen mainScreen].bounds.size.height - 64 - 300) / 2+2*num, 300, 2);
         if (num == 0) {
             upOrdown = NO;
         }
@@ -89,13 +86,11 @@
 
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"MDSSweepYardViewController"];
     
 }
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-     [MobClick beginLogPageView:@"MDSSweepYardViewController"];
     self.title = @"扫描医生二维码";
     [self setupCamera];
     if (self.isDis) {
@@ -142,7 +137,7 @@
     // Preview
     _preview =[AVCaptureVideoPreviewLayer layerWithSession:self.session];
     _preview.videoGravity = AVLayerVideoGravityResizeAspectFill;
-    _preview.frame =CGRectMake((ScreenWidth - 300) / 2,(ScreenHeight - 64 - 300) / 2,300,300);
+    _preview.frame =CGRectMake(([UIScreen mainScreen].bounds.size.width - 300) / 2,([UIScreen mainScreen].bounds.size.height - 64 - 300) / 2,300,300);
     [self.view.layer insertSublayer:self.preview atIndex:0];
     
     
