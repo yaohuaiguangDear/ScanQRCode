@@ -41,7 +41,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor blackColor];
     UIImageView * imageView = [[UIImageView alloc]initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 300) / 2,([UIScreen mainScreen].bounds.size.height - 64 - 300) / 2,300,300)];
     
     imageView.image = [UIImage imageNamed:@"doc_saoma_corner"];
