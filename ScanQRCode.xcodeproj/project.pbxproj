@@ -16,6 +16,17 @@
 		207462EC1EB074C4003B14A6 /* ScanQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207462EB1EB074C4003B14A6 /* ScanQRCodeTests.m */; };
 		207462F71EB074C4003B14A6 /* ScanQRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 207462F61EB074C4003B14A6 /* ScanQRCodeUITests.m */; };
 		207463081EB086D0003B14A6 /* MDSScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207463061EB086D0003B14A6 /* MDSScanQRCodeViewController.m */; };
+		207B9DAA1EB8698F00E31B0E /* LBXScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9D9D1EB8698F00E31B0E /* LBXScanNative.m */; };
+		207B9DAB1EB8698F00E31B0E /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 207B9D9F1EB8698F00E31B0E /* CodeScan.bundle */; };
+		207B9DAC1EB8698F00E31B0E /* LBXScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DA11EB8698F00E31B0E /* LBXScanLineAnimation.m */; };
+		207B9DAD1EB8698F00E31B0E /* LBXScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DA31EB8698F00E31B0E /* LBXScanNetAnimation.m */; };
+		207B9DAE1EB8698F00E31B0E /* LBXScanVideoZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DA51EB8698F00E31B0E /* LBXScanVideoZoomView.m */; };
+		207B9DAF1EB8698F00E31B0E /* LBXScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DA71EB8698F00E31B0E /* LBXScanView.m */; };
+		207B9DB01EB8698F00E31B0E /* LBXScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DA91EB8698F00E31B0E /* LBXScanViewStyle.m */; };
+		207B9DB31EB86E7300E31B0E /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DB21EB86E7300E31B0E /* LBXScanViewController.m */; };
+		207B9DB81EB86E8600E31B0E /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DB51EB86E8600E31B0E /* Global.m */; };
+		207B9DB91EB86E8600E31B0E /* LBXScanPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DB61EB86E8600E31B0E /* LBXScanPermissions.m */; };
+		207B9DC11EB874C400E31B0E /* StyleDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DC01EB874C400E31B0E /* StyleDIY.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +65,27 @@
 		207462F81EB074C4003B14A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		207463051EB086D0003B14A6 /* MDSScanQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSScanQRCodeViewController.h; sourceTree = "<group>"; };
 		207463061EB086D0003B14A6 /* MDSScanQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSScanQRCodeViewController.m; sourceTree = "<group>"; };
+		207B9D9C1EB8698F00E31B0E /* LBXScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNative.h; sourceTree = "<group>"; };
+		207B9D9D1EB8698F00E31B0E /* LBXScanNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNative.m; sourceTree = "<group>"; };
+		207B9D9F1EB8698F00E31B0E /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		207B9DA01EB8698F00E31B0E /* LBXScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanLineAnimation.h; sourceTree = "<group>"; };
+		207B9DA11EB8698F00E31B0E /* LBXScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanLineAnimation.m; sourceTree = "<group>"; };
+		207B9DA21EB8698F00E31B0E /* LBXScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNetAnimation.h; sourceTree = "<group>"; };
+		207B9DA31EB8698F00E31B0E /* LBXScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNetAnimation.m; sourceTree = "<group>"; };
+		207B9DA41EB8698F00E31B0E /* LBXScanVideoZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanVideoZoomView.h; sourceTree = "<group>"; };
+		207B9DA51EB8698F00E31B0E /* LBXScanVideoZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanVideoZoomView.m; sourceTree = "<group>"; };
+		207B9DA61EB8698F00E31B0E /* LBXScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanView.h; sourceTree = "<group>"; };
+		207B9DA71EB8698F00E31B0E /* LBXScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanView.m; sourceTree = "<group>"; };
+		207B9DA81EB8698F00E31B0E /* LBXScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewStyle.h; sourceTree = "<group>"; };
+		207B9DA91EB8698F00E31B0E /* LBXScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewStyle.m; sourceTree = "<group>"; };
+		207B9DB11EB86E7300E31B0E /* LBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewController.h; sourceTree = "<group>"; };
+		207B9DB21EB86E7300E31B0E /* LBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewController.m; sourceTree = "<group>"; };
+		207B9DB41EB86E8600E31B0E /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		207B9DB51EB86E8600E31B0E /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		207B9DB61EB86E8600E31B0E /* LBXScanPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanPermissions.m; sourceTree = "<group>"; };
+		207B9DB71EB86E8600E31B0E /* LBXScanPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanPermissions.h; sourceTree = "<group>"; };
+		207B9DBF1EB874C400E31B0E /* StyleDIY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleDIY.h; sourceTree = "<group>"; };
+		207B9DC01EB874C400E31B0E /* StyleDIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleDIY.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,10 +179,55 @@
 		207463041EB086B1003B14A6 /* scanQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				207B9D9A1EB8698F00E31B0E /* LBXScan */,
 				207463051EB086D0003B14A6 /* MDSScanQRCodeViewController.h */,
 				207463061EB086D0003B14A6 /* MDSScanQRCodeViewController.m */,
+				207B9DB11EB86E7300E31B0E /* LBXScanViewController.h */,
+				207B9DB21EB86E7300E31B0E /* LBXScanViewController.m */,
+				207B9DBF1EB874C400E31B0E /* StyleDIY.h */,
+				207B9DC01EB874C400E31B0E /* StyleDIY.m */,
+				207B9DB41EB86E8600E31B0E /* Global.h */,
+				207B9DB51EB86E8600E31B0E /* Global.m */,
+				207B9DB61EB86E8600E31B0E /* LBXScanPermissions.m */,
+				207B9DB71EB86E8600E31B0E /* LBXScanPermissions.h */,
 			);
 			path = scanQRCode;
+			sourceTree = "<group>";
+		};
+		207B9D9A1EB8698F00E31B0E /* LBXScan */ = {
+			isa = PBXGroup;
+			children = (
+				207B9D9B1EB8698F00E31B0E /* LBXNative */,
+				207B9D9E1EB8698F00E31B0E /* UI */,
+			);
+			path = LBXScan;
+			sourceTree = "<group>";
+		};
+		207B9D9B1EB8698F00E31B0E /* LBXNative */ = {
+			isa = PBXGroup;
+			children = (
+				207B9D9C1EB8698F00E31B0E /* LBXScanNative.h */,
+				207B9D9D1EB8698F00E31B0E /* LBXScanNative.m */,
+			);
+			path = LBXNative;
+			sourceTree = "<group>";
+		};
+		207B9D9E1EB8698F00E31B0E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				207B9D9F1EB8698F00E31B0E /* CodeScan.bundle */,
+				207B9DA01EB8698F00E31B0E /* LBXScanLineAnimation.h */,
+				207B9DA11EB8698F00E31B0E /* LBXScanLineAnimation.m */,
+				207B9DA21EB8698F00E31B0E /* LBXScanNetAnimation.h */,
+				207B9DA31EB8698F00E31B0E /* LBXScanNetAnimation.m */,
+				207B9DA41EB8698F00E31B0E /* LBXScanVideoZoomView.h */,
+				207B9DA51EB8698F00E31B0E /* LBXScanVideoZoomView.m */,
+				207B9DA61EB8698F00E31B0E /* LBXScanView.h */,
+				207B9DA71EB8698F00E31B0E /* LBXScanView.m */,
+				207B9DA81EB8698F00E31B0E /* LBXScanViewStyle.h */,
+				207B9DA91EB8698F00E31B0E /* LBXScanViewStyle.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +342,7 @@
 				207462E11EB074C4003B14A6 /* LaunchScreen.storyboard in Resources */,
 				207462DE1EB074C4003B14A6 /* Assets.xcassets in Resources */,
 				207462DC1EB074C4003B14A6 /* Main.storyboard in Resources */,
+				207B9DAB1EB8698F00E31B0E /* CodeScan.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +367,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207B9DB81EB86E8600E31B0E /* Global.m in Sources */,
 				207462D91EB074C4003B14A6 /* ViewController.m in Sources */,
+				207B9DAA1EB8698F00E31B0E /* LBXScanNative.m in Sources */,
+				207B9DAC1EB8698F00E31B0E /* LBXScanLineAnimation.m in Sources */,
+				207B9DAE1EB8698F00E31B0E /* LBXScanVideoZoomView.m in Sources */,
+				207B9DB01EB8698F00E31B0E /* LBXScanViewStyle.m in Sources */,
 				207462D61EB074C4003B14A6 /* AppDelegate.m in Sources */,
 				207463081EB086D0003B14A6 /* MDSScanQRCodeViewController.m in Sources */,
+				207B9DAD1EB8698F00E31B0E /* LBXScanNetAnimation.m in Sources */,
+				207B9DB31EB86E7300E31B0E /* LBXScanViewController.m in Sources */,
+				207B9DAF1EB8698F00E31B0E /* LBXScanView.m in Sources */,
 				207462D31EB074C4003B14A6 /* main.m in Sources */,
+				207B9DC11EB874C400E31B0E /* StyleDIY.m in Sources */,
+				207B9DB91EB86E8600E31B0E /* LBXScanPermissions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 266UDL39X7;
 				INFOPLIST_FILE = ScanQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yao.ScanQRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,6 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 266UDL39X7;
 				INFOPLIST_FILE = ScanQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yao.ScanQRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
