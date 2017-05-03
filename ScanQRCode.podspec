@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ScanQRCode/scanQRCode","ScanQRCode/scanQRCode/**/*.{h,m}"
+  s.source_files  = "ScanQRCode/scanQRCode/**","ScanQRCode/scanQRCode/**/*.","ScanQRCode/scanQRCode/LBXScan/**/*."
   #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-  s.resource_bundles = {'ScanQRCode' => ['scanQRCode/LBXScan/UI/*']}
+  s.resource_bundles = {'ScanQRCode' => ['ScanQRCode/scanQRCode/LBXScan/UI/*']}
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
