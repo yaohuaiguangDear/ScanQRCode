@@ -27,6 +27,7 @@
 		207B9DB81EB86E8600E31B0E /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DB51EB86E8600E31B0E /* Global.m */; };
 		207B9DB91EB86E8600E31B0E /* LBXScanPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DB61EB86E8600E31B0E /* LBXScanPermissions.m */; };
 		207B9DC11EB874C400E31B0E /* StyleDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DC01EB874C400E31B0E /* StyleDIY.m */; };
+		207B9DC41EB9746600E31B0E /* UIColor+NotRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 207B9DC31EB9746600E31B0E /* UIColor+NotRGB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,8 @@
 		207B9DB71EB86E8600E31B0E /* LBXScanPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanPermissions.h; sourceTree = "<group>"; };
 		207B9DBF1EB874C400E31B0E /* StyleDIY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleDIY.h; sourceTree = "<group>"; };
 		207B9DC01EB874C400E31B0E /* StyleDIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleDIY.m; sourceTree = "<group>"; };
+		207B9DC21EB9746600E31B0E /* UIColor+NotRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NotRGB.h"; sourceTree = "<group>"; };
+		207B9DC31EB9746600E31B0E /* UIColor+NotRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NotRGB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +185,8 @@
 				207B9D9A1EB8698F00E31B0E /* LBXScan */,
 				207463051EB086D0003B14A6 /* MDSScanQRCodeViewController.h */,
 				207463061EB086D0003B14A6 /* MDSScanQRCodeViewController.m */,
+				207B9DC21EB9746600E31B0E /* UIColor+NotRGB.h */,
+				207B9DC31EB9746600E31B0E /* UIColor+NotRGB.m */,
 				207B9DB11EB86E7300E31B0E /* LBXScanViewController.h */,
 				207B9DB21EB86E7300E31B0E /* LBXScanViewController.m */,
 				207B9DBF1EB874C400E31B0E /* StyleDIY.h */,
@@ -374,6 +379,7 @@
 				207B9DAE1EB8698F00E31B0E /* LBXScanVideoZoomView.m in Sources */,
 				207B9DB01EB8698F00E31B0E /* LBXScanViewStyle.m in Sources */,
 				207462D61EB074C4003B14A6 /* AppDelegate.m in Sources */,
+				207B9DC41EB9746600E31B0E /* UIColor+NotRGB.m in Sources */,
 				207463081EB086D0003B14A6 /* MDSScanQRCodeViewController.m in Sources */,
 				207B9DAD1EB8698F00E31B0E /* LBXScanNetAnimation.m in Sources */,
 				207B9DB31EB86E7300E31B0E /* LBXScanViewController.m in Sources */,

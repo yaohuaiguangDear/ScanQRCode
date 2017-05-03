@@ -14,7 +14,7 @@ typedef void (^ScanQRCode)(NSString * code, BOOL success);
 typedef void (^ScanQRCodeRightButtonAction)(NSString * router);
 
 @interface MDSScanQRCodeViewController : LBXScanViewController
-
+@property (nonatomic, strong) NSDictionary *parameterDict;
 @property (nonatomic, strong) NSString *topString;
 @property (nonatomic, strong) NSString *topSecondString;
 //title

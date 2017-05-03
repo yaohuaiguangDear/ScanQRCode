@@ -28,7 +28,7 @@
     style.photoframeAngleStyle = LBXScanViewPhotoframeAngleStyle_On;
     
     //扫码框周围4个角绘制的线条宽度
-    style.photoframeLineW = 6;
+    style.photoframeLineW = 3;
     
     //扫码框周围4个角的宽度
     style.photoframeAngleW = 24;

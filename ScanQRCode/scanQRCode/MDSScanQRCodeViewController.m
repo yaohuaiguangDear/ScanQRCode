@@ -9,6 +9,8 @@
 #import "MDSScanQRCodeViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import "LBXScanVideoZoomView.h"
+#import "StyleDIY.h"
+#import "UIColor+NotRGB.h"
 
 @interface MDSScanQRCodeViewController ()
 /**
@@ -57,9 +59,31 @@
 }
 
 - (void)setRightButton{
+    self.style = [StyleDIY qqStyle];
+    if (self.parameterDict) {
+        self.titleName = self.parameterDict[@"titleName"];
+        self.topString = [self.parameterDict[@"module"] firstObject][@"text"];
+        self.topSecondString = self.parameterDict[@"tips"];
+        self.buttonText = [self.parameterDict[@"right"] firstObject][@"buttonText"];
+        self.router = [self.parameterDict[@"right"] firstObject][@"router"];
+    }
+    
+    
+    
+    
+    
     UIBarButtonItem *rightBarBtn = [[UIBarButtonItem alloc]initWithTitle:self.buttonText style:UIBarButtonItemStylePlain target:self action:@selector(rightButtonClicked)];
     [rightBarBtn setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIFont systemFontOfSize:16.f],NSFontAttributeName, nil] forState:UIControlStateNormal];
     self.navigationItem.rightBarButtonItem = rightBarBtn;
+    
+    if (self.parameterDict) {
+        NSString *hexColor = [self.parameterDict[@"right"] firstObject][@"buttonTextColor"];
+        if (hexColor.length > 6) {
+            UIColor * buttonColor = [UIColor colorWithHexString:hexColor];
+            [self.navigationItem.rightBarButtonItem setTintColor:buttonColor];
+
+        }
+    }
 }
 
 - (void)rightButtonClicked{
@@ -95,6 +119,14 @@
         _topTitle.bounds = CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 60);
         _topTitle.center = CGPointMake(CGRectGetWidth(self.view.frame)/2, 50);
         _topTitle.font = [UIFont systemFontOfSize:18];
+        if (self.parameterDict) {
+            NSString *hexColor = [self.parameterDict[@"module"] firstObject][@"color"];
+            if (hexColor.length > 6) {
+                _topTitle.textColor = [UIColor colorWithHexString:hexColor];
+            }
+        }
+        
+        
         
         _topTitle.textAlignment = NSTextAlignmentCenter;
         _topTitle.numberOfLines = 1;
