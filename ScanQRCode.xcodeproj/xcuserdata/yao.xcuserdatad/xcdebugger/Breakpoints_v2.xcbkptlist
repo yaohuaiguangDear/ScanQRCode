@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ScanQRCode/scanQRCode/MDSScanQRCodeViewController.m"
-            timestampString = "515471044.63462"
+            timestampString = "515486970.27961"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "272"
-            endingLineNumber = "272"
+            startingLineNumber = "273"
+            endingLineNumber = "273"
             landmarkName = "-scanResultWithArray:"
             landmarkType = "7">
          </BreakpointContent>
