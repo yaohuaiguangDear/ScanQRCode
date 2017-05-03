@@ -41,10 +41,7 @@
     style.isNeedShowRetangle = YES;
     //线条上下移动图片
     
-    NSBundle*myBundle = [NSBundle bundleForClass:[self class]];
-   NSString *path = [[ myBundle resourcePath]stringByAppendingPathComponent:@"/CodeScan.bundle/qrcode_scan_part_net"];
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"/CodeScan.bundle/qrcode_scan_part_net" ofType:@"png"];
-    style.animationImage = [UIImage imageWithContentsOfFile:path];
+    style.animationImage = [UIImage imageNamed:@"qrcode_scan_part_net"];
     
     return style;
 }

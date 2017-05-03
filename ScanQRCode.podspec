@@ -105,6 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
   s.resource_bundles = {'ScanQRCode' => ['ScanQRCode/scanQRCode/LBXScan/UI/*']}
+  s.resources = "ScanQRCode/scanQRCode/LBXScan/UI/CodeScan.bundle/*.png"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
