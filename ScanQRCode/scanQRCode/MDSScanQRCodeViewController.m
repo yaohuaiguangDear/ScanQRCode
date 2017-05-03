@@ -44,7 +44,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = self.titleName;
+    
     // Do any additional setup after loading the view.
     
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
@@ -66,6 +66,7 @@
         self.topSecondString = self.parameterDict[@"tips"];
         self.buttonText = [self.parameterDict[@"right"] firstObject][@"buttonText"];
         self.router = [self.parameterDict[@"right"] firstObject][@"router"];
+        self.title = self.titleName;
     }
     
     
