@@ -61,7 +61,7 @@
 - (void)setRightButton{
     self.style = [StyleDIY qqStyle];
     if (self.parameterDict) {
-        self.titleName = self.parameterDict[@"titleName"];
+        self.titleName = self.parameterDict[@"qrcodeTitle"];
         self.topString = [self.parameterDict[@"module"] firstObject][@"text"];
         self.topSecondString = self.parameterDict[@"tips"];
         self.buttonText = [self.parameterDict[@"right"] firstObject][@"buttonText"];

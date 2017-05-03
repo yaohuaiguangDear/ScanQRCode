@@ -40,7 +40,8 @@
     style.anmiationStyle = LBXScanViewAnimationStyle_NetGrid;
     style.isNeedShowRetangle = YES;
     //线条上下移动图片
-    style.animationImage = [UIImage imageNamed:@"qrcode_scan_part_net"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"qrcode_scan_part_net" ofType:@"png"];
+    style.animationImage = [UIImage imageWithContentsOfFile:path];
     
     return style;
 }
